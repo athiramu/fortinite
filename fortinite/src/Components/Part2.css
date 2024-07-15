@@ -7,3 +7,8 @@ letter-spacing: 0.02em;
 text-align: center;
 
 }
+@media only screen and (max-width: 768px) {
+    .part2_p{
+        font-size: 15px;
+    }
+}

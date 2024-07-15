@@ -23,3 +23,19 @@ line-height: 27px;
 text-align: center;
 
 }
+
+@media only screen and (max-width: 320px) {
+    .p_section1{
+        font-size: 30px;
+        line-height: 40px;  
+    }  
+   
+    .img_section1{
+        height: 150px;
+    }
+}
+@media only screen and (min-width:321px) and( max-width:768px)  {
+    .img_section1{
+        height: 200px;
+    } 
+}

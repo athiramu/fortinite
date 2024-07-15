@@ -5,11 +5,11 @@ function Section1() {
     return (
         <>
             <div className='container'>
-                <div>
-                    <p className='p_section1'>
-                        Epic Games : An American video game and software developer and publisher based in Cary, North Carolina.
-                    </p>
-                </div>
+         
+            <p className='p_section1 text-center'>
+                Epic Games: An American video game and software developer and publisher based in Cary, North Carolina.
+            </p>
+      
                 <div className='img_section1 container'>
                     <img src={img1} className='img-fluid' alt='Responsive Image' />
                 </div>
@@ -19,8 +19,10 @@ function Section1() {
                     </p>
                 </div>
                 <div className='d-flex justify-content-center'>
-                <button type="button" class="btn btn-light col-2 col-xxl-2 col-xl-2">Visit Website</button>
-                </div>
+            <button type="button" className="btn btn-light col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                Visit Website
+            </button>
+        </div>
             </div>
 
         </>

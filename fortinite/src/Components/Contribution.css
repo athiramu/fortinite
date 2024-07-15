@@ -33,3 +33,24 @@ line-height: 29.3px;
 text-align: center;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .engagements{
+        font-size: 50px; 
+    }
+    .des-engagement{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:321px)and(max-width: 768px) {
+
+    .engagements{
+        font-size: 50px; 
+    }
+    .des-engagement{
+        font-size: 17px;
+        
+      
+    }  
+}
